@@ -14,10 +14,13 @@
  *= require_self
  */
 
- a {
- 	text-decoration: none;
- }
+@import "vars";
+@import "mixins";
 
- li {
- 	list-style: none;
- }
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
